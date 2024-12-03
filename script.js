@@ -1,81 +1,78 @@
-// // JavaScript Basic Problem Solving 1:
+// JavaScript Basic Problem Solving 1:
 
-// // 1. Create a variable called carName, assign the value Volvo to it.
+// 1. Create a variable called carName, assign the value Volvo to it.
+let carName = "Volvo";
+console.log(carName)
 
-// let carName = "Volvo";
+// 2. On one single line, declare three variables with the following names and values:
+let firstName = "jhon";
+let lastName = "Doe";
+let age = 35;
 
-// // 2. On one single line, declare three variables with the following names and values:
+// 3. Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+let x = 10;
+let y = 5;
+x = x * y;
+console.log(x);
 
-// let firstName = "jhon";
-// let lastName = "Doe";
-// let age = 35;
+// 4. Use comments to describe the correct data type of the following variables:
+let length = 16; // data type of numbers
+let LastName = "Jhonson"; //data type of string
+const dd = {
+  firstName: "Jhon",
+  lastName: "Doe",
+}; // data type of object
+console.log(dd);
 
-// // 3. Use the correct assignment operator that will result in x being 50 (same as x = x * y).
+// 5. Execute the function named myFunction.
+function myFunction() {
+  alert("Hello World");
+}
+myFunction();
 
-// let x = 10;
-// let y = 5;
-// x = x * y;
-// console.log(x);
+// 6. Create an object called person with name = John, age = 50, Then, access the object to alert("John is 50").
 
-// // 4. Use comments to describe the correct data type of the following variables:
+let person = {
+  name: "Jhon",
+  age: 50,
+};
 
-// let length = 16; // data type of numbers
-// let LastName = "Jhonson"; //data type of string
-// const dd = {
-//   firstName: "Jhon",
-//   lastName: "Doe",
-// }; // data type of object
-// console.log(dd);
-// // 5. Execute the function named myFunction.
+let res = person.name + " is " + person.age;
+alert(res);
 
-// function myFunction() {
-//   alert("Hello World");
-// }
-// myFunction();
+// 7 no question:
+//ans:  the ans is html page and also have in here?
 
-// // 6. Create an object called person with name = John, age = 50, Then, access the object to alert("John is 50").
+// <button id="demo" onclick="alert('Try to fix it')">Click Me</button>
 
-// let person = {
-//   name: "Jhon",
-//   age: 50,
-// };
+// 8. Array Related Question
 
-// let res = person.name + " is " + person.age;
-// alert(res);
+const cars = ["Volvo", "Jeep", "Mercedes"];
+alert(cars.length);
 
-// // 7 no question:
-// //ans:  the ans is html page and also have in here?
+const Brand = ["Volvo", "Jeep", "Mercedes"];
+Brand[0] = "Ford";
+console.log(Brand);
 
-// // <button id="demo" onclick="alert('Try to fix it')">Click Me</button>
+// 9. Math Related Problems
 
-// // 8. Array Related Question
+let rdm = Math.random();
+console.log(rdm);
 
-// const cars = ["Volvo", "Jeep", "Mercedes"];
-// alert(cars.length);
+let rdmlarg = Math.max(10, 20);
+console.log(rdmlarg);
 
-// const Brand = ["Volvo", "Jeep", "Mercedes"];
-// Brand[0] = "Ford";
-// console.log(Brand);
+let root = Math.sqrt(9);
+console.log(root);
 
-// // 9. Math Related Problems
+// 10. comparison operator related problems!
 
-// let rdm = Math.random();
-// console.log(rdm);
+let xx = 10;
+let yy = 5;
+alert(xx > yy);
 
-// let rdmlarg = Math.max(10, 20);
-// console.log(rdmlarg);
-
-// let root = Math.sqrt(9);
-// console.log(root);
-
-// // 10. comparison operator related problems!
-
-// let xx = 10;
-// let yy = 5;
-// alert(xx > yy);
-
-// let Age = 12;
-// alert((message = Age < 18 ? "Too young" : "Old enough"));
+let Age = 12;
+alert((message = Age < 18 ? "Too young" : "Old enough"));
 
 
 
